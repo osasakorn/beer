@@ -14,19 +14,20 @@
 		.test{
 			width: 300px
 		}
+		body{
+			background-color: #FFA07A;
+		}
 		</style>
 </head>
 <body>
 <center>
-	<h1>HW3 - BEER Searching <span class="glyphicon glyphicon-glass"></span></h1>
+	<h1>Beer Searching <span class="glyphicon"></span></h1>
 	<br>
 	<br>
 	<input id="find" type="text"  class="test">
-	<input id="find2" type="text"  class="test" ><button type="button" class="btn btn-info" onclick="findBeer((document.getElementById('find').value),(document.getElementById('find2').value))">Search</button>
-	<br>result :<div id="num"></div>
-	<div>
-		<table id="beers" border="1">
-	</table>
+	<input id="find2" type="text"  class="test" >  <button type="button" class="btn btn-info" onclick="findBeer((document.getElementById('find').value),(document.getElementById('find2').value))">Search</button>
+	<br>result : <div id="num"></div>
+	<div id="beers" border="1"></div>
 	</center>
 
 
